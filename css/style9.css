@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(10,10,75);
+}
+div{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+div ul{
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+    text-align: center;
+}
+div ul li{
+    color: yellow;
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 10px;
+    z-index: 10;
+}
+div.Menu_navegacion ul li a {
+    text-decoration: none;
+    color: rgb(109, 121, 118);
+    padding: 10px 0px;
+}
+div ul li a:hover{
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.titulo8{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
+    text-align: center;
+}
+.titulo8 h2{
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+.Imagen{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.Imagen4{
+    display: block;
+    width: 15%;
+    height: 250px;
+    float: left; /* Flota la imagen a la izquierda */
+    margin-right: 10px; /* Añade un margen derecho a la imagen */
+}
+.Subtema{
+    color: yellow;
+    font-size: 30px;
+}
+.texto{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+.tabla{
+    background-color: #050A30;
+}
+.PiePagina{
+    color: black;
+    text-align: center;
+    background-color: yellow;
+}

@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(10,10,75);
+}
+div{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+div ul{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+div ul li{
+    color: yellow;
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 10px;
+    z-index: 10;
+}
+div.Menu_navegacion ul li a {
+    text-decoration: none;
+    color: rgb(109, 121, 118);
+    padding: 10px 0px;
+}
+div ul li a:hover{
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.Imagen2{
+    display: block;
+    width: 100%;
+    height: 800px;
+    float: center; /* Flota la imagen a la izquierda */
+    margin-right: 10px; /* Añade un margen derecho a la imagen */
+}
+.text2{
+    color: yellow;
+    position: relative;
+}
+.titulo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100; /* Asegúrate de que el título esté por encima de la imagen */
+    text-align: center; /* Centra el título */
+}
+.titulo h2 {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+.texto2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabla2{
+    width: 100%;
+    height: 400px;
+    background-image: url('/Imagenes/fondo7.png');
+    background-size: cover;
+    background-repeat: none;
+    margin: 0 auto;
+}
+.Imagen1{
+    width: 40%;
+    height: 300px;
+}
+.PiePagina{
+    color: black;
+    text-align: center;
+    background-color: yellow;
+}
